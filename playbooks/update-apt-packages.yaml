@@ -1,7 +1,7 @@
 ---
 - name: Update and upgrade apt packages
   hosts: all
-  ansible_user: pifin
+  remote_user: pifin
 
   tasks:
     - name: Update packages with apt
