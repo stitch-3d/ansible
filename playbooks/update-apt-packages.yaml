@@ -2,6 +2,7 @@
 - name: Update and upgrade apt packages
   hosts: all
   remote_user: pifin
+  become: true
 
   tasks:
     - name: Update packages with apt
