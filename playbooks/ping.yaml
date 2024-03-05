@@ -1,6 +1,6 @@
 - hosts: all
- # become: true
   become_user: pifin
+  become: true
   tasks:
 
   - name: Ping test
